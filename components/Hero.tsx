@@ -7,7 +7,7 @@ export function Hero() {
       <p className="eyebrow"><span className="status-dot" />PhD Researcher · UNNC</p>
       <h1><span>Agentic</span><br />City</h1>
       <p className="hero-deck">Computing urban intelligence through interacting, adaptive agents.</p>
-      <p className="hero-intro">{site.intro}</p>
+      <p className="hero-intro">{site.intro.map((line) => <span key={line}>{line}</span>)}</p>
       <div className="hero-actions">
         <a className="button button-primary" href="#research">Research overview <span aria-hidden="true">↘</span></a>
         <a className="button button-secondary" href={`${basePath}/files/Jiaheng_Xiao_CV.pdf`} target="_blank">Curriculum vitae <span aria-hidden="true">↗</span></a>

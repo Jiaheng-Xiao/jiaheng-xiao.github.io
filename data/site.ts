@@ -8,15 +8,17 @@ export const site = {
   affiliation: {
     label: "Autonomous and Intelligent Systems, UNNC",
     // Replace this URL whenever you want the affiliation text to open a different teacher's webpage.
-    url: "https://www.nottingham.edu.cn/cn/info-hub/staff-profile.aspx?id=853e6b08-b49b-4255-a4c5-ff78a5e8ee12&language=zh",
+    url: "https://www.gotrafficgo.com/",
   },
   mentors: [
     // Replace either URL below whenever a supervisor's webpage changes.
     { title: "Prof.", name: "Zhengbing He", url: "https://www.nottingham.edu.cn/cn/info-hub/staff-profile.aspx?id=853e6b08-b49b-4255-a4c5-ff78a5e8ee12&language=zh" },
     { title: "Dr.", name: "Qianyu Liu", url: "https://www.nottingham.edu.cn/en/Info-Hub/Staff-Profile.aspx?id=c1da007e-0f29-4453-a0f3-21934e385539&language=en-GB" },
   ],
-  intro:"Hi! I'm Jiaheng Xiao, Welcome to my homepage! \n  你好！我是萧家恒，欢迎来到我的网站！\n \
-  ",
+  intro: [
+    "Hi! I'm Jiaheng Xiao, welcome to my homepage!",
+    "你好！我是萧家恒，欢迎来到我的网站！",
+  ],
 //   intro: "I study how human-like intelligence can be modelled, tested, and made useful in complex urban mobility systems.",
   bio: [
     "My current research sits at Agentic City, Intelligent Mobility and Human Behaviour.",
