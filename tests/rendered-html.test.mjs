@@ -9,9 +9,10 @@ test("exports the academic homepage", async () => {
   const html = await readFile(new URL("index.html", output), "utf8");
 
   assert.match(html, /<title>Jiaheng Xiao · Agentic City<\/title>/i);
-  assert.match(html, /<span>Agentic<\/span><br\/>City/);
+  assert.match(html, /Jiaheng<br\/><span>Xiao<\/span>/);
   assert.doesNotMatch(html, /From human intent/);
-  assert.match(html, /Cities as evolving multi-agent systems/);
+  assert.match(html, /Personal academic homepage/);
+  assert.match(html, /Academic profile summary/);
   assert.match(html, /DPIU: Dynamic Pedestrian Intention Understanding/);
   assert.match(html, /University of Nottingham Ningbo China/);
   assert.match(html, /class="profile-photo/);
