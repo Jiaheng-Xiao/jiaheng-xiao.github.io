@@ -3,7 +3,7 @@ import { SectionHeading } from "./SectionHeading";
 
 export function Publications() {
   return <section className="section publications" id="publications">
-    <SectionHeading number="03" kicker="Publications" title="Research outputs" intro="Peer-reviewed and scholarly outputs organised by publication type." />
+    <SectionHeading number="03" kicker="Publications"  />
     <div className="publication-taxonomy" aria-label="Publication categories">
       {publicationCategories.map((category) => <div key={category.id}>
         <b>{publications.filter((paper) => paper.category === category.id).length}</b><span>{category.label}</span>

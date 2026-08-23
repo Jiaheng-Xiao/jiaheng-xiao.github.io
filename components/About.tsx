@@ -18,7 +18,7 @@ export function About() {
         <dl className="facts">
           <div><dt>Position</dt><dd>{site.role}</dd></div>
           <div><dt>Research</dt><dd>Agentic City · Intelligent Mobility · Human Behaviour</dd></div>
-          <div><dt>Location</dt><dd>{site.location}</dd></div>
+          <div><dt>Base</dt><dd>{site.location}</dd></div>
         </dl>
       </div>
       <div className={`profile-photo${site.profileImage ? " has-photo" : ""}`} style={photoStyle} role="img" aria-label={site.profileImage ? "Portrait of Jiaheng Xiao" : "Personal photo placeholder"}>

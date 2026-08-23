@@ -4,7 +4,7 @@ export const site = {
   email: "jiaheng.X1406@gmail.com",
   github: "https://github.com/Nodarz",
   location: "Ningbo, China",
-  profileImage: "",
+  profileImage: "/images/jiaheng-xiao.webp",
   affiliation: {
     label: "Autonomous and Intelligent Systems, UNNC",
     // Replace this URL whenever you want the affiliation text to open a different webpage.
@@ -21,7 +21,7 @@ export const site = {
   ],
 //   intro: "I study how human-like intelligence can be modelled, tested, and made useful in complex urban mobility systems.",
   bio: [
-    "My current research sits at Agentic City, Intelligent Mobility and Human Behaviour.",
+    "",
 //     "My current research interest is agentic city.",
   ],
 };
@@ -56,7 +56,7 @@ export const experience = [
 
 export const education = [
   { year: "2026 - Present", degree: "PhD Candidate", supervisor: "Zhengbing He", school: "University of Nottingham Ningbo China" },
-  { year: "2024", degree: "M.S. Transportation Information Engineering and Control", supervisor: "Zhaowei Qu", school: "Jilin University" },
+  { year: "2024", degree: "M.S. Transportation Information Engineering and Control", supervisor: "Zhaowei Qu & Zhihui Li", school: "Jilin University" },
   { year: "2020", degree: "B.Eng. Automobile Application Engineering", supervisor: "Zhihui Li", school: "Jilin University" },
 ];
 
