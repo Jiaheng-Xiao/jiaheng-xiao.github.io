@@ -34,9 +34,17 @@ export const researchPillars = [
 //   { index: "04", title: "City-scale Calibration", label: "REALITY", text: "Connecting microscopic agent settings to macroscopic flow patterns so an evolving artificial city remains meaningfully aligned with the real world.", tags: ["calibration", "surrogate learning", "traffic flow"] },
 ];
 
+export const publicationCategories = [
+  { id: "journal", label: "Journal Articles", itemLabel: "Journal article" },
+  { id: "conference", label: "Conference Papers", itemLabel: "Conference paper" },
+  { id: "preprint", label: "Preprints", itemLabel: "Preprint" },
+  { id: "chapter", label: "Book Chapters", itemLabel: "Book chapter" },
+];
+
 export const publications = [
-  { year: "2026", venue: "IEEE TNNLS", title: "DPIU: Dynamic Pedestrian Intention Understanding Through Cognitive Decision-Making", authors: "Jiaheng Xiao, Zhihui Li, Mingxin Wang, Yu Xie, Qin Ma, Xin Wang, and Yu Sun", note: "A cognitive, memory-guided framework that connects future pedestrian intentions to historical experience and refines multimodal forecasts with Bayesian density estimation.", doi: "https://doi.org/10.1109/TNNLS.2026.3665567", pdf: "/files/DPIU_TNNLS_2026.pdf" },
-//   { year: "2024", venue: "Master's Thesis", title: "Pedestrian Trajectory Prediction and Vehicle Safety Warning Methods in Autonomous Driving", authors: "Jiaheng Xiao", note: "Trajectory forecasting, collision-risk modelling, and safety-aware navigation for mixed pedestrian-vehicle environments." },
+  { category: "journal", year: "2026", venue: "IEEE TNNLS", title: "DPIU: Dynamic Pedestrian Intention Understanding Through Cognitive Decision-Making", authors: "Jiaheng Xiao, Zhihui Li, Mingxin Wang, Yu Xie, Qin Ma, Xin Wang, and Yu Sun", note: "A cognitive, memory-guided framework that connects future pedestrian intentions to historical experience and refines multimodal forecasts with Bayesian density estimation.", doi: "https://doi.org/10.1109/TNNLS.2026.3665567", pdf: "/files/DPIU_TNNLS_2026.pdf" },
+// Add a conference paper with: { category: "conference", year: "2026", venue: "Conference name", title: "Paper title", authors: "Author list", note: "Short description", doi: "", pdf: "/files/your-paper.pdf" },
+//   { category: "preprint", year: "2024", venue: "Master's Thesis", title: "Pedestrian Trajectory Prediction and Vehicle Safety Warning Methods in Autonomous Driving", authors: "Jiaheng Xiao", note: "Trajectory forecasting, collision-risk modelling, and safety-aware navigation for mixed pedestrian-vehicle environments." },
 ];
 
 export const experience = [

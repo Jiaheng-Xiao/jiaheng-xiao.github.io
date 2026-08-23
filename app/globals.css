@@ -99,7 +99,15 @@ a { color: inherit; text-decoration: none; }
 .tags { display: flex; flex-wrap: wrap; gap: 7px; }
 .tags span { padding: 5px 9px; background: var(--green-soft); color: #12643f; font: 500 10px/1 "IBM Plex Mono", monospace; }
 
-.publication-list { border-top: 1px solid var(--ink); }
+.publication-taxonomy { display: grid; grid-template-columns: repeat(4, 1fr); margin-bottom: 62px; border-top: 1px solid var(--ink); border-left: 1px solid var(--line); }
+.publication-taxonomy div { min-height: 112px; padding: 18px; display: flex; flex-direction: column; justify-content: space-between; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.publication-taxonomy b { color: var(--blue); font-size: 30px; font-weight: 300; }
+.publication-taxonomy span { color: var(--muted); font: 500 11px/1.25 "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .06em; }
+.publication-group + .publication-group { margin-top: 72px; }
+.publication-group-heading { display: flex; align-items: baseline; justify-content: space-between; padding-bottom: 16px; border-bottom: 1px solid var(--ink); }
+.publication-group-heading h3 { margin: 0; font-size: 22px; font-weight: 400; }
+.publication-group-heading span { color: var(--green); font: 500 11px/1 "IBM Plex Mono", monospace; }
+.publication-list { border-top: 0; }
 .publication { display: grid; grid-template-columns: 150px 1fr 84px; gap: 36px; padding: 34px 0; border-bottom: 1px solid var(--line); }
 .pub-year b { display: block; font-size: 30px; font-weight: 300; }
 .pub-year span { color: var(--blue); font: 500 11px/1 "IBM Plex Mono", monospace; }
@@ -167,6 +175,8 @@ footer { padding: 46px 4.4vw 20px; background: #102d39; color: white; }
   .research-grid { grid-template-columns: 1fr; }
   .research-card { min-height: 300px; padding: 24px 20px; border-right: 0; }
   .publication { grid-template-columns: 1fr; gap: 16px; }
+  .publication-taxonomy { grid-template-columns: repeat(2, 1fr); margin-bottom: 48px; }
+  .publication-taxonomy div { min-height: 96px; }
   .pub-links { grid-column: 1; }
   .timeline-item { grid-template-columns: 84px 1fr; gap: 14px; }
   .footer-main { align-items: flex-start; flex-direction: column; }
