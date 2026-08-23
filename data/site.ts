@@ -7,7 +7,7 @@ export const site = {
   profileImage: "",
   affiliation: {
     label: "Autonomous and Intelligent Systems, UNNC",
-    // Replace this URL whenever you want the affiliation text to open a different teacher's webpage.
+    // Replace this URL whenever you want the affiliation text to open a different webpage.
     url: "https://www.gotrafficgo.com/",
   },
   mentors: [
