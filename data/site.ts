@@ -5,18 +5,26 @@ export const site = {
   github: "https://github.com/Nodarz",
   location: "Ningbo, China",
   profileImage: "",
-  intro: "I study how human-like intelligence can be modelled, tested, and made useful in complex urban mobility systems.",
+  affiliation: {
+    label: "Autonomous and Intelligent Systems, UNNC",
+    // Replace this URL whenever you want the affiliation text to open a different teacher's webpage.
+    url: "https://www.nottingham.edu.cn/cn/info-hub/staff-profile.aspx?id=853e6b08-b49b-4255-a4c5-ff78a5e8ee12&language=zh",
+  },
+  intro:"Hi! I'm Jiaheng Xiao, Welcome to my homepage! \n  你好！我是萧家恒，欢迎来到我的网站！\n \
+  ",
+//   intro: "I study how human-like intelligence can be modelled, tested, and made useful in complex urban mobility systems.",
   bio: [
-    "I am a PhD Candidate at UNNC. My current research sits at Agentic City, Intelligent Mobility and Human Behaviour.",
+    "I am lucky to receive mentorship from Prof. Zhengbing He & Dr. Qianyu Liu. My current research sits at Agentic City, Intelligent Mobility and Human Behaviour.",
 //     "My current research interest is agentic city.",
   ],
 };
 
 export const researchPillars = [
   { index: "01", title: "Agentic Mobility", label: "SYSTEM", text: "A day-to-day mobility system populated by LLM-based travellers and traffic managers with distinct roles, memories, actions, and channels for interaction.", tags: ["LLM agents", "MATSim", "mobility simulation"] },
-  { index: "02", title: "Human-like Reasoning", label: "AGENT", text: "Generic agent prototypes that combine domain knowledge, personal profiles, memory, environmental perception, and bounded action spaces.", tags: ["memory", "RAG", "personalisation"] },
-  { index: "03", title: "Safety in Emergent Systems", label: "EVALUATION", text: "Identifying risky actions and traits by comparing moral and adversarial societies, with inverse reinforcement learning as a lens on collective behaviour.", tags: ["AI safety", "IRL", "emergence"] },
-  { index: "04", title: "City-scale Calibration", label: "REALITY", text: "Connecting microscopic agent settings to macroscopic flow patterns so an evolving artificial city remains meaningfully aligned with the real world.", tags: ["calibration", "surrogate learning", "traffic flow"] },
+  { index: "02", title: "Pedestrian Trajectory Prediction", label: "Intelligent Vehicle", text: "Developed the DPIU trajectory prediction framework to bridge future \
+      intentions with historical behavioral experiences, focusing on uncovering pedestrians’ implicit motion intentions.", tags: ["Memory Mechanisms", "Cognitive decision-making", "RNN"] },
+//   { index: "03", title: "Safety in Emergent Systems", label: "EVALUATION", text: "Identifying risky actions and traits by comparing moral and adversarial societies, with inverse reinforcement learning as a lens on collective behaviour.", tags: ["AI safety", "IRL", "emergence"] },
+//   { index: "04", title: "City-scale Calibration", label: "REALITY", text: "Connecting microscopic agent settings to macroscopic flow patterns so an evolving artificial city remains meaningfully aligned with the real world.", tags: ["calibration", "surrogate learning", "traffic flow"] },
 ];
 
 export const publications = [

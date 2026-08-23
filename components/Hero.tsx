@@ -3,6 +3,7 @@ import { basePath, site } from "../data/site";
 export function Hero() {
   return <section className="hero" id="top">
     <div className="hero-copy">
+      <span className="hero-network" style={{ backgroundImage: `url(${basePath}/og-academic.png)` }} aria-hidden="true" />
       <p className="eyebrow"><span className="status-dot" />PhD Researcher · UNNC</p>
       <h1><span>Agentic</span><br />City</h1>
       <p className="hero-deck">Computing urban intelligence through interacting, adaptive agents.</p>
@@ -13,7 +14,7 @@ export function Hero() {
       </div>
     </div>
     <aside className="research-brief" aria-label="Current research programme">
-      <div className="brief-head"><span>Research programme</span><span>2026—</span></div>
+      <div className="brief-head"><span>Research programme</span><span>2026 — present</span></div>
       <div className="brief-body">
         <p className="brief-index">AC / 01</p>
         <h2>Cities as evolving multi-agent systems</h2>

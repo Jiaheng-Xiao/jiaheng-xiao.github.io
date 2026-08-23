@@ -11,10 +11,13 @@ export function About() {
       <div className="about-summary">
         <p className="academic-label">Biography</p>
         <h2>Jiaheng Xiao</h2>
-        <div className="about-bio">{site.bio.map((p) => <p key={p}>{p}</p>)}</div>
+        <div className="about-bio">
+          <p>I am a PhD Candidate at <a href={site.affiliation.url} target="_blank" rel="noreferrer">{site.affiliation.label}<span aria-hidden="true"> ↗</span></a>. {site.bio[0]}</p>
+          {site.bio.slice(1).map((p) => <p key={p}>{p}</p>)}
+        </div>
         <dl className="facts">
           <div><dt>Position</dt><dd>{site.role}</dd></div>
-          <div><dt>Research</dt><dd>Agentic City · Intelligent Mobility · Human Behaviour · Pedestrian Trajectory Prediction </dd></div>
+          <div><dt>Research</dt><dd>Agentic City · Intelligent Mobility · Human Behaviour</dd></div>
           <div><dt>Location</dt><dd>{site.location}</dd></div>
         </dl>
       </div>

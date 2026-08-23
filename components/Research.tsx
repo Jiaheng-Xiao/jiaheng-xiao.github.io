@@ -3,7 +3,7 @@ import { SectionHeading } from "./SectionHeading";
 
 export function Research() {
   return <section className="section research" id="research">
-    <SectionHeading number="02" kicker="Research agenda" title="Agentic City" intro="A doctoral programme investigating AI, mobility, and society through cities composed of interacting generative agents." />
+    <SectionHeading number="02" kicker="Research focus" title="AI for ITS" intro="Artificial intelligence for next-generation transportation systems" />
     <div className="research-grid">{researchPillars.map((item) => <article className="research-card" key={item.index}>
       <div className="card-meta"><span>{item.index}</span><span>{item.label}</span></div>
       <h3>{item.title}</h3><p>{item.text}</p>
