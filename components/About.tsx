@@ -12,7 +12,7 @@ export function About() {
         <p className="academic-label">Biography</p>
         <h2>Jiaheng Xiao</h2>
         <div className="about-bio">
-          <p>I am a PhD Candidate at <a href={site.affiliation.url} target="_blank" rel="noreferrer">{site.affiliation.label}<span aria-hidden="true"> ↗</span></a>. {site.bio[0]}</p>
+          <p>I am a PhD Candidate at <a href={site.affiliation.url} target="_blank" rel="noreferrer">{site.affiliation.label}<span aria-hidden="true"> ↗</span></a>. I am lucky to receive mentorship from {site.mentors.map((mentor, index) => <span className="mentor-link" key={mentor.name}>{index > 0 && " & "}<a href={mentor.url} target="_blank" rel="noreferrer">{mentor.title} {mentor.name}<span aria-hidden="true"> ↗</span></a></span>)}. {site.bio[0]}</p>
           {site.bio.slice(1).map((p) => <p key={p}>{p}</p>)}
         </div>
         <dl className="facts">
