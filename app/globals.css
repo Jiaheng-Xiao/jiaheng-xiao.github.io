@@ -61,6 +61,20 @@ a { color: inherit; text-decoration: none; }
 .brief-metadata a { color: var(--blue); border-bottom: 1px solid currentColor; }
 .brief-metadata a:hover { color: var(--blue-dark); }
 .brief-status { padding: 17px 22px; color: var(--green); font: 500 11px/1 "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .06em; }
+.profile-brief-body { padding-block: clamp(24px, 3vw, 42px); }
+.profile-brief-top { display: grid; grid-template-columns: 128px 1fr; gap: 24px; align-items: start; }
+.profile-brief-top .brief-index { margin-bottom: 18px; }
+.profile-brief-top h2 { margin-bottom: 12px; font-size: clamp(28px, 2.7vw, 42px); }
+.profile-role { margin: 0; color: var(--muted); font-size: 13px; }
+.profile-photo.hero-profile-photo { width: 128px; aspect-ratio: 4 / 5; justify-self: start; }
+.profile-photo.hero-profile-photo > div { padding: 14px; }
+.profile-photo.hero-profile-photo b { font-size: 44px; }
+.profile-photo.hero-profile-photo span { margin-top: 12px; }
+.profile-photo.hero-profile-photo small { display: none; }
+.profile-biography { margin: 24px 0 0; color: var(--muted); font-size: 14px; line-height: 1.55; }
+.profile-biography a { color: var(--blue); border-bottom: 1px solid currentColor; }
+.profile-biography a:hover { color: var(--blue-dark); }
+.profile-facts div { grid-template-columns: 78px 1fr; }
 
 .section { padding: 110px 4.4vw; border-bottom: 1px solid var(--line); scroll-margin-top: 68px; }
 .section-heading { display: grid; grid-template-columns: minmax(180px, .55fr) 1.45fr; gap: 5vw; margin-bottom: 64px; }
@@ -163,6 +177,9 @@ footer { padding: 46px 4.4vw 20px; background: #102d39; color: white; }
   .button { width: 100%; }
   .research-brief { margin: 0 20px 34px; }
   .brief-body { padding: 34px 18px; }
+  .profile-brief-top { grid-template-columns: 104px 1fr; gap: 18px; }
+  .profile-photo.hero-profile-photo { width: 104px; }
+  .profile-biography { margin-top: 20px; }
   .brief-metadata div { grid-template-columns: 72px 1fr; padding-inline: 18px; }
   .section { padding: 76px 20px; }
   .section-heading { margin-bottom: 44px; }
