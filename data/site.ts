@@ -3,13 +3,13 @@ export const site = {
   role: "PhD Candidate · University of Nottingham Ningbo China(UNNC)",
   email: "jiaheng.X1406@gmail.com",
   github: "https://github.com/Nodarz",
+  linkedin:"https://www.linkedin.com/in/jiahengx1406/?isSelfProfile=true",
   location: "Ningbo, China",
   profileImage: "/images/jiaheng-xiao.webp",
   affiliation: {
     label: "Autonomous and Intelligent Systems, UNNC",
     // Replace this URL whenever you want the affiliation text to open a different webpage.
     url: "https://www.gotrafficgo.com/",
-    linkedin:"https://www.linkedin.com/in/jiahengx1406/?isSelfProfile=true",
   },
   mentors: [
     // Replace either URL below whenever a supervisor's webpage changes.
