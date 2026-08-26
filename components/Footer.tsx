@@ -8,7 +8,10 @@ export function Footer() {
       <a href={site.github} target="_blank" rel="noreferrer">GitHub ↗</a>
       <a href={site.linkedin} target="_blank" rel="noreferrer">Linkedin ↗</a>
       <a href={`${basePath}/files/Jiaheng_Xiao_CV.pdf`} target="_blank">CV ↓</a>
-      <a href="#top">Back to top ↑</a>
+
     </div></div>
   </footer>;
 }
+
+
+//   <a href="#top">Back to top ↑</a>
