@@ -4,7 +4,7 @@ export const site = {
   email: "jiaheng.X1406@gmail.com",
   github: "https://github.com/Nodarz",
   linkedin:"https://www.linkedin.com/in/jiahengx1406",
-  location: "Ningbo, China",
+  location: "Ningbo, Zhejiang, China",
   profileImage: "/images/jiaheng-xiao.webp",
   affiliation: {
     label: "Autonomous and Intelligent Systems, UNNC",
