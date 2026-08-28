@@ -53,7 +53,7 @@ export const experience = [
     { period: "2026 - present", title: "Agentic City", place: "UNNC · Project Lead", text: "A day-to-day mobility system populated by LLM-based travellers and traffic managers." },
   { period: "2025 - 2026", title: "Hypergraph-Guided Social Interaction Modelling", place: "Jimei University · Project Lead", text: "Modeled high-order pedestrian social relations with hypergraphs and state-space models." },
   { period: "2021 - 2024", title: "Probabilistic Pedestrian Intention Understanding", place: "Jilin University · Project Lead", text: "Developed cognitive and uncertainty-aware models for robust trajectory prediction in long-tail scenarios." },
-  { period: "2022", title: "Dynamic Assessment of Road Risk", place: "MPS × Huawei · Key Contributor", text: "Designed operational risk scoring and monitoring logic adopted in a real-world traffic management setting." },
+//   { period: "2022", title: "Dynamic Assessment of Road Risk", place: "MPS × Huawei · Key Contributor", text: "Designed operational risk scoring and monitoring logic adopted in a real-world traffic management setting." },
 ];
 
 export const education = [
