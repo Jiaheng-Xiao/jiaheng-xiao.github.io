@@ -25,7 +25,7 @@ export function Hero() {
         </div>
       </div>
       <dl className="brief-metadata profile-facts">
-        <div><dt>Intro</dt><dd className="profile-position">I am a PhD Candidate at <a href={site.affiliation.url} target="_blank" rel="noreferrer">{site.affiliation.label} ↗</a>. I am lucky to receive mentorship from {site.mentors.map((mentor, index) => <span key={mentor.name}>{index > 0 && " & "}<a href={mentor.url} target="_blank" rel="noreferrer">{mentor.title} {mentor.name} ↗</a></span>)}. {site.bio[0]}</dd></div>
+        <div><dt>Intro</dt><dd className="profile-position">I am a PhD Student at <a href={site.affiliation.url} target="_blank" rel="noreferrer">{site.affiliation.label} ↗</a>. I am lucky to receive mentorship from {site.mentors.map((mentor, index) => <span key={mentor.name}>{index > 0 && " & "}<a href={mentor.url} target="_blank" rel="noreferrer">{mentor.title} {mentor.name} ↗</a></span>)}. {site.bio[0]}</dd></div>
         <div><dt>Research</dt><dd>Agentic City · Intelligent Mobility · Human Behaviour</dd></div>
         <div><dt>Location</dt><dd>{site.location}</dd></div>
       </dl>

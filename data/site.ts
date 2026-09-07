@@ -57,7 +57,7 @@ export const experience = [
 ];
 
 export const education = [
-  { year: "2026 - Present", degree: "PhD Candidate", supervisor: "Zhengbing He", school: "University of Nottingham Ningbo China" },
+  { year: "2026 - Present", degree: "PhD Student", supervisor: "Zhengbing He", school: "University of Nottingham Ningbo China" },
   { year: "2024", degree: "M.S. Transportation Information Engineering and Control", supervisor: "Zhaowei Qu & Zhihui Li", school: "Jilin University" },
   { year: "2020", degree: "B.Eng. Automobile Application Engineering", supervisor: "Zhihui Li", school: "Jilin University" },
 ];
