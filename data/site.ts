@@ -1,6 +1,6 @@
 export const site = {
   name: "Jiaheng Xiao",
-  role: "PhD Candidate · University of Nottingham Ningbo China(UNNC)",
+  role: "PhD Student · University of Nottingham Ningbo China(UNNC)",
   email: "jiaheng.X1406@gmail.com",
   github: "https://github.com/Nodarz",
   linkedin:"https://www.linkedin.com/in/jiahengx1406",
