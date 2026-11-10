@@ -18,7 +18,25 @@ export function Publications() {
         <div className="publication-list">{papers.map((paper) => <article className="publication" key={paper.title}>
           <div className="pub-year"><b>{paper.year}</b><span>{paper.venue}</span></div>
           <div className="pub-main"><p className="academic-label">{category.itemLabel}</p><h3>{paper.title}</h3><p className="authors">{paper.authors.split(site.name).map((part, index) => <span key={`${part}-${index}`}>{index > 0 && <strong>{site.name}</strong>}{part}</span>)}</p><p>{paper.note}</p></div>
-          <div className="pub-links">{paper.doi && <a href={paper.doi} target="_blank" rel="noreferrer">DOI <span aria-hidden="true">↗</span></a>}{paper.pdf && <a href={`${basePath}${paper.pdf}`} target="_blank">PDF <span aria-hidden="true">↓</span></a>}</div>
+          <div className="pub-links">
+  {paper.doi && (
+    <a href={paper.doi} target="_blank" rel="noreferrer">
+      DOI <span aria-hidden="true">↗</span>
+    </a>
+  )}
+
+  {paper.pdf && (
+    <a href={`${basePath}${paper.pdf}`} target="_blank" rel="noreferrer">
+      PDF <span aria-hidden="true">↓</span>
+    </a>
+  )}
+
+  {"arxiv" in paper && typeof paper.arxiv === "string" && paper.arxiv && (
+    <a href={paper.arxiv} target="_blank" rel="noreferrer">
+      arXiv <span aria-hidden="true">↗</span>
+    </a>
+  )}
+</div>
         </article>)}</div>
       </section>;
     })}</div>
