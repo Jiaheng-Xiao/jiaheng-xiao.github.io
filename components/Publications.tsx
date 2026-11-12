@@ -17,7 +17,17 @@ export function Publications() {
         <div className="publication-group-heading"><h3 id={`publication-${category.id}`}>{category.label}</h3><span>{papers.length.toString().padStart(2, "0")}</span></div>
         <div className="publication-list">{papers.map((paper) => <article className="publication" key={paper.title}>
           <div className="pub-year"><b>{paper.year}</b><span>{paper.venue}</span></div>
-          <div className="pub-main"><p className="academic-label">{category.itemLabel}</p><h3>{paper.title}</h3><p className="authors">{paper.authors.split(site.name).map((part, index) => <span key={`${part}-${index}`}>{index > 0 && <strong>{site.name}</strong>}{part}</span>)}</p><p>{paper.note}</p></div>
+          <div className="pub-main"><p className="academic-label">{category.itemLabel}</p><h3>{paper.title}</h3><p className="authors">{paper.authors.split(site.name).map((part, index) => <span key={`${part}-${index}`}>{index > 0 && <strong>{site.name}</strong>}{part}</span>)}</p><p>
+  {paper.note}
+  {"github" in paper && typeof paper.github === "string" && paper.github && (
+    <>
+      {" "}Source code is available on{" "}
+      <a href={paper.github} target="_blank" rel="noreferrer">
+        GitHub ↗
+      </a>.
+    </>
+  )}
+</p></div>
           <div className="pub-links">
   {paper.doi && (
     <a href={paper.doi} target="_blank" rel="noreferrer">
